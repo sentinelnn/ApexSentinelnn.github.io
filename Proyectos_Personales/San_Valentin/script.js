@@ -1,5 +1,5 @@
 // Fecha objetivo
-const targetDate = new Date('2024-06-17T21:00:00').getTime();
+const targetDate = new Date('2025-02-14T12:00:00').getTime();
 
 // Actualiza la cuenta regresiva cada segundo
 const countdown = setInterval(() => {
@@ -21,7 +21,7 @@ const countdown = setInterval(() => {
     // Si la cuenta regresiva llega a cero
     if (distance < 0) {
         clearInterval(countdown);
-        document.getElementById('countdown').innerHTML = "¡Tiempo terminado!";
+        document.getElementById('countdown').innerHTML = "¡Es hora!";
         // Crear y mostrar el botón
         const button = document.createElement('button');
         button.innerText = "Abreme";
