@@ -1,5 +1,5 @@
 // Fecha objetivo
-const targetDate = new Date('2025-02-13T12:00:00').getTime();
+const targetDate = new Date('2025-02-14T12:00:00').getTime();
 
 // Actualiza la cuenta regresiva cada segundo
 const countdown = setInterval(() => {
