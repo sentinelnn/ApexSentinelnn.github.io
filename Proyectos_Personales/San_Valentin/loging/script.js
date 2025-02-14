@@ -12,6 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         errorMessage.textContent = 'Usuario o contraseña incorrectos.';
     } else {
         errorMessage.textContent = '';
-        alert('Inicio de sesión exitoso!');
+        // Redirigir a la URL deseada
+        window.location.href = 'cont/index.html'; // Cambia esta URL por la que desees
     }
 });
