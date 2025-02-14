@@ -25,7 +25,7 @@ const countdown = setInterval(() => {
         // Crear y mostrar el botón
         const button = document.createElement('button');
         button.innerText = "Abreme";
-        button.onclick = () => window.location.href = 'Proyectos_Personales/San_Valentin/loging/index.html';
+        button.onclick = () => window.location.href = 'loging/index.html';
         document.querySelector('.container').appendChild(button);
     }
 }, 1000);
